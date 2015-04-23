@@ -1,3 +1,3 @@
-# atom
-- after downloading the atom package, copy it to ~/.atom/packages folder (/Users/Aarthi/.atom/packages)
+- doc: https://atom.io/docs/v0.194.0/hacking-atom-package-word-count
+- after downloading the atom package, copy it to ~/.atom/packages folder (/Users/Aarthi/.atom/packages) and View->Reload
 - 
