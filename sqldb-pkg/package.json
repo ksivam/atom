@@ -1,0 +1,16 @@
+{
+  "name": "sqldb-pkg",
+  "main": "./lib/sqldb-pkg",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "sqldb-pkg:createDB"
+  },
+  "repository": "https://github.com/atom/sqldb-pkg",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
