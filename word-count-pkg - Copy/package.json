@@ -1,0 +1,16 @@
+{
+  "name": "word-count-pkg",
+  "main": "./lib/word-count-pkg",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "word-count-pkg:toggle"
+  },
+  "repository": "https://github.com/atom/word-count-pkg",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
