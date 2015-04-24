@@ -16,3 +16,19 @@ azure login -u <login> password -p <password>
 change to arm mode
 ------------------
 azure config mode arm
+
+get resource group under subscription
+-------------------------------------
+azure group list
+
+get resources under a resource group
+------------------------------------
+azure group show Group-1
+
+get server
+----------
+azure resource show Group-1 testausservert Microsoft.Sql/servers 2014-04-01-preview
+
+get database under server
+-------------------------
+azure resource show Group-1 testausdb Microsoft.Sql/servers/databases 2014-04-01-preview --parent servers/testausservert
